@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", "Quicksand", sans-serif;
+  background: url(love-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.postcard {
+  width: 800px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.101);
+  margin: 0 auto;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  padding: 2em; /* Reduced padding */
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Allows scrolling for overflow */
+  transform: rotate(2.5deg);
+  transition: all 0.5s ease;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.postcard::-webkit-scrollbar {
+  display: none;
+}
+
+.postcard1 {
+  width: 800px;
+  height: 500px;
+  background: #e9b38aa7;
+  opacity: 90%;
+  position: absolute;
+  left: 24%;
+  -webkit-filter: blur(2px);
+  z-index: -1;
+  margin: 0 auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  transform: rotate(2.5deg);
+  transition: all 0.5s ease;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em; /* Reduced font size */
+  color: #fdfdfd;
+  margin-bottom: 5px;
+}
+
+/* Animation */
+.postcard:hover,
+.postcard:active,
+.postcard:focus {
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+}
+
+footer {
+  margin: 2em auto;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+p span {
+  font-size: 26px; /* Reduced font size */
+  font-weight: 600;
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  color: #800020;
+}
+
+p {
+  font-size: 18px; /* Reduced font size */
+  font-family: cursive;
+  font-weight: 540;
+  line-height: 1.4; /* Adjusted line height */
+}
+
+.ullu {
+  font-size: 20px; /* Reduced font size */
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+}
